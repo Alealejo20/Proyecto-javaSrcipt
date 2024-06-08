@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productos</title>
+    <style>
+        .completada {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Gestión de Productos</h1>
+    <div id="seccionNombre">
+        <h2>Ingrese su Nombre</h2>
+        <input type="text" id="entradaNombre" placeholder="Ingrese su nombre">
+        <button id="botonGuardarNombre">Guardar Nombre</button>
+    </div>
+    <div id="seccionProductos">
+        <h2>Bienvenido <span id="nombreUsuario"></span></h2>
+        <button id="botonBuscarProducto">Buscar Producto</button>
+        <button id="botonAgregarProducto">Agregar Producto</button>
+        <ul id="listaProductos"></ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
